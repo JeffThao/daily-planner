@@ -21,6 +21,12 @@ textarea{
   border-bottom: 10px solid black;
 }
 
+#currentDay {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
 .description{
   white-space: pre-wrap;
 }
