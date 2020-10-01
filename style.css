@@ -33,7 +33,12 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
+  /*  */
+  background-color: #ff6961;
+}
+div{
+  margin: 5px;
 }
 
 .hour {
