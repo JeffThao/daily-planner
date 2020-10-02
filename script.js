@@ -27,6 +27,7 @@ function makeBlocks() {
 
         }
         var textarea = document.createElement("textarea");
+        textarea.setAttribute("placeholder", "Plan your day here.");
 
         if (currentTime == time[i]) {
             textarea.setAttribute("class", "present col-10 time-block " + time[i]);
@@ -54,20 +55,18 @@ function makeBlocks() {
     }
 
     $(".saveBtn").on("click", function () {
-
-        console.log(this.getAttribute("id"));
-        console.log(this.parentElement.children[1].value);
         var idTime = this.getAttribute("id");
         var textAreaContent = this.parentElement.children[1].value;
         localStorage.setItem(idTime, textAreaContent);
     });
 
     function getToDos() {
-        var storedTodos = JSON.parse(localStorage.getItem("todos"));
-
+        var time = d3.setAttribute("id", time[i]);
+        var storedTodos = JSON.parse(localStorage.getItem(time));
     }
     
 }
 
 makeBlocks();
+
 
