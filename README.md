@@ -5,3 +5,6 @@ This is an hourly planner. It gives the user a chance to plan their work day, st
 ## How to
 
 Using this planner is simple. All you need to do is click on the box that says, "Plan your day here." Once you've put down what you're going to do during that hour, click on the save button on the right. That will save what you just wrote. Be careful though, this will only save it to your local storage. This means that if you clear your cookies, cache, and browser history, then you will also lose what you just saved as well.
+
+Here is the link to the application. Go check it out!
+https://jeffthao.github.io/daily-planner/
